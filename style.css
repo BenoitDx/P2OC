@@ -4,3 +4,7 @@ header {
 body {
     font-family: 'Raleway', sans-serif;
 }
+.logobooki{
+    display: block;
+    margin:auto
+}
