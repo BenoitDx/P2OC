@@ -4,8 +4,35 @@ header {
 body {
     font-family: 'Raleway', sans-serif;
 }
-.logobooki{
+/************header***********/
+header img{
     display: block;
-    width: 20%;
-    margin:auto
+    width: 11%;
+    margin-left: 50%;
+}
+header nav{
+    margin-top: 10px;
+}
+header ul{
+    display: flex;
+    flex-wrap: nowrap
+}
+header ul li{
+    margin-right: 35%;
+}
+header .border_accomodation{
+    padding: 030%;
+}
+header .border_activity{
+    padding: 36%;
+}
+header .border_accomodation{
+    border-bottom: solid 3px #0065fc;
+    color: #0065fc;
+    padding: 36px;
+}
+/************filtres***********/
+section { 
+    border: solid 1px; border-color:#0065fc
+ 
 }
