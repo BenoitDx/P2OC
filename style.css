@@ -1,38 +1,44 @@
-header { 
+ body{
     font-family: 'Raleway', sans-serif;
-}
-body {
-    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    
 }
 /************header***********/
 header img{
     display: block;
-    width: 11%;
-    margin-left: 50%;
+    width: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
 }
 header nav{
-    margin-top: 10px;
+    margin-top: 35px;
 }
 header ul{
     display: flex;
-    flex-wrap: nowrap
+    flex-wrap: wrap;
+    list-style: none; 
+    
 }
 header ul li{
-    margin-right: 35%;
+    margin-right: auto
 }
 header .border_accomodation{
-    padding: 030%;
+    padding: auto;
+    margin: auto;
+    text-decoration:none;
+    color: #0065fc
 }
 header .border_activity{
-    padding: 36%;
+    padding: auto;
+    text-decoration:none; 
+    color: black;
+    
 }
 header .border_accomodation{
     border-bottom: solid 3px #0065fc;
-    color: #0065fc;
-    padding: 36px;
+    padding: 12px;
 }
 /************filtres***********/
-section { 
-    border: solid 1px; border-color:#0065fc
- 
-}
+
