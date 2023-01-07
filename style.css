@@ -8,11 +8,10 @@ img{
     
 }
 body  {
-    margin-left:0 auto;
-    margin-right:0 auto;
+    margin-left: auto;
+    margin-right: auto;
     width: auto; 
     font-family: 'Raleway', sans-serif;
-    
   }
 
 /************header logo ***********/
@@ -20,13 +19,12 @@ header img{
     display: flex;
     width: 15%;
     margin: auto; 
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 /********** Menu navigation *********/
 header nav{
-    margin-top: 25px;
-    
+    margin-top: 25px; 
 }
 header ul{
     display: flex;
@@ -35,8 +33,7 @@ header ul{
     padding: 0px;
     list-style: none;
     border-bottom: solid; color: #d9d9d9;
-    padding: 12px;
-    
+    padding: 12px;  
 }
 header li{
     margin: auto;
@@ -49,7 +46,7 @@ header .border_accomodation{
 }
 header .border_activity{
     text-decoration: none;
-    
+    color:black;
 }
    
 
@@ -74,8 +71,8 @@ header .border_activity{
 input::placeholder{
     color: black;
     font-weight: bolder;
-    font-size: medium;
-    
+    font-size: large; 
+    padding: 5%;
 }
 .localisation {
     display: flex;
@@ -115,6 +112,7 @@ button {
     flex: 1;
     margin: 1%
   }
+
 .dolar {
     margin: 4%;
     color: #0065FC;
@@ -126,22 +124,26 @@ button {
     color: #0065FC;
     margin-right: 5px;
 }
+
 .heart {
     margin: 4%;
     color: #0065FC;
     margin-right: 5px;
 }
+
 .dog {
     margin: 4%;
     color: #0065FC;
     margin-right: 5px;
 }
+
 .ecofam { 
     display: flex;
     justify-content: space-between;
     align-items: center; 
     margin-bottom: 4%;   
 }
+
 .romani {
     display: flex;
     justify-content: space-between;
@@ -164,22 +166,42 @@ button {
   .info {
     display: flex;
     align-items: baseline;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 /*****Populaire*****/
 .grahp {
     color: #0065FC;
-}
+    font-size: 20px;
+  }
 .populartitle {
     display:flex;
     align-items: baseline;
     justify-content: space-between;
-}
+    line-height: 1;
+    margin-bottom: 3%;
+  }
 .popular {
     background-color:#d9d9d9;
-
+    display: flex;
+    flex-flow: column;
+    padding-top: 3%;
+    padding-bottom: 5%;
 }
 .casepopular {
+    border: 5px solid #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 10px
+  }
+.imgpop {
+    border-radius: 20px 0 0 20px;
+    object-fit: contain;
+  }
+  
+
 
     
-}
 }
