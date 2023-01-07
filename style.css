@@ -1,10 +1,16 @@
+@media (max-width: 748px) {
 *{
     box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    
 }
 body  {
     margin-left:0 auto;
     margin-right:0 auto;
-    width: 768px; 
+    width: auto; 
     font-family: 'Raleway', sans-serif;
     
   }
@@ -54,40 +60,42 @@ header .border_activity{
 
 .search p{
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 .searchbar {
     display: flex;
-    flex-wrap: nowrap;
     justify-content: center;
-    padding: 15px;
 }
 .recherchebar {
     border: solid 1px #d9d9d9 ;
+    width: 100%;
 
 }
 input::placeholder{
     color: black;
     font-weight: bolder;
     font-size: medium;
+    
 }
 .localisation {
-    display: inline-block;
+    display: flex;
+    text-align: center;
     background-color: #d9d9d9;
-    border-radius: 15px 0 0 15px;
-    width: 50px;
-    text-align:center;
-    
-    
+    border-radius: 20px 0 0 20px;
+    font-size: large;
+    width: 20%;
 }
+
 button {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #0065FC;
     border: none;
     padding: 0px;
-    border-radius: 0 15px 15px 0 ; 
-    text-align: center;
-    height: 50px;
-
+    border-radius: 0 20px 20px 0 ; 
+    height: 60px;
+    width: 20%;
 }
 
 .loupe {
@@ -97,85 +105,66 @@ button {
 
 }
 /*********Filtre**********/
-
-.eco {
-    text-align: center;
+.bordered {
     font-weight: bold;
     display: flex;
-    flex-wrap:nowrap;
     justify-content: baseline;
-    border:#d9d9d9 solid 2px;
-    border-radius: 25px 25px 25px 25px;
+    border: #d9d9d9 solid 2px;
+    border-radius: 50px;
     align-items: baseline;
-}
+    flex: 1;
+    margin: 1%
+  }
 .dolar {
+    margin: 4%;
     color: #0065FC;
     margin-right: 5px;
 }   
-.fam {
-    text-align: center;
-    font-weight: bold;
-    display: flex;
-    flex-wrap:nowrap;
-    justify-content: baseline;
-    border: #d9d9d9 solid 2px;
-    border-radius: 25px 25px 25px 25px;
-    align-items: baseline;  
-}
+
 .child {
+    margin: 4%;
     color: #0065FC;
     margin-right: 5px;
-}
-.rom {
-    text-align: center;
-    font-weight: bold;
-    display: flex;
-    flex-wrap:nowrap;
-    justify-content: baseline;
-    border:#d9d9d9 solid 2px;
-    border-radius: 25px 25px 25px 25px;
-    align-items: baseline;
 }
 .heart {
+    margin: 4%;
     color: #0065FC;
     margin-right: 5px;
-}
-.ani {
-    text-align: center;
-    font-weight: bold;
-    display: flex;
-    flex-wrap:nowrap;
-    justify-content: baseline;
-    border:#d9d9d9 solid 2px;
-    border-radius: 25px 25px 25px 25px;
-    align-items: baseline;
 }
 .dog {
+    margin: 4%;
     color: #0065FC;
     margin-right: 5px;
 }
-.ecofam {
+.ecofam { 
     display: flex;
-    justify-content:space-between;
-    margin-bottom: 2%;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 4%;   
 }
 .romani {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 3%;
+    align-items: center;    
 }
 
 /*******info*******/
 .bulleinfo {
-    color: #0065FC;
-    border:#d9d9d9 solid 2px;
+    display: inline-block;
+    border: 1px solid #d9d9d9;
     border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-right: 3%;
 }
-.info {
+.bulleinfo .fa-info {
+    color: #0065FC;
+  }
+  .info {
     display: flex;
     align-items: baseline;
 }
-
 /*****Populaire*****/
 .grahp {
     color: #0065FC;
@@ -187,4 +176,10 @@ button {
 }
 .popular {
     background-color:#d9d9d9;
+
+}
+.casepopular {
+
+    
+}
 }
