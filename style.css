@@ -1,18 +1,20 @@
+*{
+    box-sizing: border-box;
+}
 body  {
     margin-left: auto;
     margin-right: auto;
     width: 768px; 
     font-family: 'Raleway', sans-serif;
-    margin:  auto;
-    padding: auto;
+    
   }
 
 /************header logo ***********/
 header img{
     display: flex;
-    width: 62px;
+    width: 15%;
     margin: auto; 
-    margin-top: 21px;
+    margin-top: 2%;
 }
 
 /********** Menu navigation *********/
@@ -26,6 +28,8 @@ header ul{
     justify-content: center;    
     padding: 0px;
     list-style: none;
+    border-bottom: solid; color: #d9d9d9;
+    padding: 12px;
     
 }
 header li{
@@ -44,7 +48,84 @@ header .border_activity{
    
 
 /************Recherche***********/
+.search h1{
+    margin-top: 45px;
+}
 
-.searchbar{}
+.search p{
+    margin-top: 10px;
+}
+.searchbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 15px;
+}
+.recherchebar {
+    border: solid 1px #d9d9d9 ;
 
+}
+input::placeholder{
+    color: black;
+    font-weight: bolder;
+    font-size: medium;
+}
+.localisation {
+    display: inline-block;
+    background-color: #d9d9d9;
+    border-radius: 15px 0 0 15px;
+    width: 50px;
+    text-align:center;
+    
+    
+}
+button {
+    display: inline-block;
+    background-color: #0065FC;
+    border: none;
+    padding: 0px;
+    border-radius: 0 15px 15px 0 ; 
+    text-align: center;
+    height: 50px;
 
+}
+
+.loupe {
+    width: 50px;
+    color: #fff;
+    font-size:large;
+
+}
+/*********Filtre**********/
+
+.eco {
+    text-align: center;
+    font-weight: bold;
+}
+.dolar {
+    color: #0065FC;
+}
+.fam {
+    text-align: center;
+    font-weight: bold;  
+}
+.child {
+    color: #0065FC;
+}
+.rom {
+    text-align: center;
+    font-weight: bold;
+}
+.heart {
+    color: #0065FC;
+}
+.ani {
+    text-align: center;
+    font-weight: bold;
+}
+.dog {
+    color: #0065FC;
+}
+.eco .dolar {
+    
+}
