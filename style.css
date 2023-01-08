@@ -180,7 +180,6 @@ button {
     display:flex;
     align-items: baseline;
     justify-content: space-between;
-    line-height: 1;
     margin-bottom: 3%;
   }
 .popular {
@@ -196,7 +195,9 @@ button {
     display: flex;
     justify-content: space-between;
     background-color: #fff;
-    margin: 10px
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
   }
 .imgpop {
     border-radius: 20px 0 0 20px;
