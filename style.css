@@ -89,7 +89,6 @@ button {
     align-items: center;
     background-color: #0065FC;
     border: none;
-    padding: 0px;
     border-radius: 0 20px 20px 0 ; 
     height: 60px;
     width: 20%;
@@ -110,7 +109,7 @@ button {
     border-radius: 50px;
     align-items: baseline;
     flex: 1;
-    margin: 1%
+    
   }
 
 .dolar {
@@ -139,17 +138,20 @@ button {
 
 .ecofam { 
     display: flex;
-    justify-content: space-between;
     align-items: center; 
-    margin-bottom: 4%;   
+    margin-bottom: 4%;
+     
 }
-
+.eco {
+    margin-right: 2%;
+}
 .romani {
     display: flex;
-    justify-content: space-between;
     align-items: center;    
 }
-
+.rom {
+    margin-right: 2%;
+}
 /*******info*******/
 .bulleinfo {
     display: inline-block;
