@@ -198,21 +198,31 @@ button {
     margin: 2%;
     margin-left: 0;
     margin-right: 0;
+    
   }
 .imgpop {
     border-radius: 20px 0 0 20px;
     object-fit: contain;
+    
   }
 /*****Color Star********/  
 .star {
-    color: #0065FC
+    color: #0065FC;
+    
 }
 .stargrey{
     color: 	#DCDCDC;
 }
 /*********Hebergement*******/
-.caseaccomodationmarseille{
+.imgacco{
+    border-radius: 20px 20px 0 0;
+    object-fit: contain;
    
 }
-    
+.caseaccomodationmarseille{
+    border: 5px solid #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}    
 }
