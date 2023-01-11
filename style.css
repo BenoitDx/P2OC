@@ -223,5 +223,14 @@ button {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-}    
+} 
+
+
+/******* Activity ********/
+
+
+/******* Footer *********/
+.casefooter{
+    background-color:#d9d9d9;
+}
 }
