@@ -227,10 +227,19 @@ button {
 
 
 /******* Activity ********/
+.caseactivity{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #fff;
 
+}
 
 /******* Footer *********/
+.sectionfooter{
+    margin-top: 10%;
+}
 .casefooter{
     background-color:#d9d9d9;
 }
+
 }
