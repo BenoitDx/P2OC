@@ -218,6 +218,9 @@ button {
     object-fit: contain;
    
 }
+.title4{
+    margin-top: 5%;
+}
 .caseaccomodationmarseille{
     border: 5px solid #fff;
     border-radius: 20px;
@@ -235,11 +238,18 @@ button {
 }
 
 /******* Footer *********/
+.imgact{
+    border-radius: 20px 20px 0 0 ;
+    object-fit: contain;
+}
+
 .sectionfooter{
     margin-top: 10%;
 }
 .casefooter{
     background-color:#d9d9d9;
+    border: 5px solid #fff;
+
 }
 
 }
