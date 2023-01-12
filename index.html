@@ -15,15 +15,16 @@
     </head>
     <body>
         <!--header-->
+        <div id="layout">
         <header>
             <img class="logobooki" src="asset/logo/Booki.png" alt="Booki">
             <nav>
                 <ul>
                     <li>
-                        <a class="border_accomodation" href="#" >Hébergements</a>
+                        <a class="border_accomodation" href="#">Hébergements</a>
                     </li>
                     <li>
-                        <a class="border_activity" href="#"  >Activités</a>
+                        <a class="border_activity" href="#">Activités</a>
                     </li>
                 </ul>
             </nav>
@@ -33,7 +34,7 @@
             <h1 class="title1">Trouvez votre hébergement pour des vacances de rêve</h1>
             <p class="subtitle1">En plein centre-ville ou en pleine nature</p>
             <div class="searchbar">
-                    <i class="localisation fa-solid fa-location-dot"></i>
+                   <div class="localisation"> <i class="fa-solid fa-location-dot"></i></div>
                     <input class="recherchebar" type="search" placeholder="Marseille, France">
                     <button type="button"><i class="loupe fa-solid fa-magnifying-glass"></i></button>
             </div>
@@ -41,23 +42,23 @@
         <!--Filtres-->
         <section class="filtered">
             <h1 class="title2">Filtres</h1>
-            <div class="ecofam">
-                <div class="bordered eco">
-                        <i class="dolar fa-solid fa-money-bill-wave"></i>
+            <div class="casefiltre">
+                <div class="bordered eco w-100 d-flex align-item mb-1">
+                        <i class="primary-icon fa-solid fa-money-bill-wave"></i>
                         <p>Économique</p>
                 </div>
-                <div class="bordered fam">
-                        <i class="child fa-solid fa-child"></i>
+                <div class="bordered fam w-100 d-flex align-item mb-1">
+                        <i class="primary-icon fa-solid fa-child"></i>
                         <p>Familial</p>
                 </div>
-            </div>
-            <div class="romani">
-                <div class="bordered rom">
-                    <i class="heart fa-solid fa-heart"></i>
+            
+            
+                <div class="bordered rom w-100 d-flex align-item mb-1">
+                    <i class="primary-icon fa-solid fa-heart"></i>
                     <p>Romantique</p>
                 </div>
-                <div class="bordered ani">
-                    <i class="dog fa-solid fa-dog"></i>
+                <div class="bordered ani w-100 d-flex align-item mb-1">
+                    <i class="primary-icon fa-solid fa-dog"></i>
                     <p>Animaux autorisés</p>
                 </div>
             </div> 
@@ -294,6 +295,7 @@
                 </div>   
             </section>  
         </footer>
+    </div>
     </body>
 </html>
 

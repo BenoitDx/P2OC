@@ -2,6 +2,7 @@
 *{
     box-sizing: border-box;
 }
+
 img{
     max-width: 100%;
     height: auto;
@@ -48,6 +49,10 @@ header .border_activity{
     color:black;
 }
    
+#layout{
+    padding: 0 16px;
+  
+}
 
 /************Recherche***********/
 .search h1{
@@ -75,7 +80,8 @@ input::placeholder{
 }
 .localisation {
     display: flex;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     background-color: #d9d9d9;
     border-radius: 20px 0 0 20px;
     font-size: large;
@@ -101,55 +107,39 @@ button {
 }
 /*********Filtre**********/
 .bordered {
-    font-weight: bold;
-    display: flex;
-    justify-content: baseline;
+    font-weight: bold;  
     border: #d9d9d9 solid 2px;
     border-radius: 50px;
-    align-items: baseline;
-    flex: 1;
-    
   }
-
-.dolar {
+.primary-icon {
     margin: 4%;
     color: #0065FC;
     margin-right: 5px;
 }   
-
-.child {
-    margin: 4%;
-    color: #0065FC;
-    margin-right: 5px;
+.w-100{
+    width: 49%;
 }
-
-.heart {
-    margin: 4%;
-    color: #0065FC;
-    margin-right: 5px;
-}
-
-.dog {
-    margin: 4%;
-    color: #0065FC;
-    margin-right: 5px;
-}
-
-.ecofam { 
+.d-flex{
     display: flex;
-    align-items: center; 
-    margin-bottom: 4%;
-     
+    
 }
-.eco {
-    margin-right: 2%;
+.justify-content{
+    justify-content: center;
 }
-.romani {
+.align-item{
+    align-items: center;
+}
+.mb-1{
+    margin-bottom: 8px;
+}
+.casefiltre{
     display: flex;
-    align-items: center;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.rom {
-    margin-right: 2%;
+.filtered{
+    margin-top: 10%;
 }
 /*******info*******/
 .bulleinfo {
@@ -182,11 +172,12 @@ button {
     margin-bottom: 3%;
   }
 .popular {
-    background-color:#d9d9d9;
+    background-color: #F2F2F2;
     display: flex;
     flex-flow: column;
     padding-top: 3%;
     padding-bottom: 5%;
+    overflow:visible;
 }
 .casepopular {
     border: 5px solid #fff;
@@ -247,7 +238,7 @@ button {
     margin-top: 10%;
 }
 .casefooter{
-    background-color:#d9d9d9;
+    background-color:#F2F2F2;
     border: 5px solid #fff;
 
 }
