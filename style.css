@@ -176,16 +176,14 @@ button {
 
 }
 .casepopular {
-    position: relative;
     display: flex;
     border: 5px solid #fff;
     border-radius: 20px;
     background-color: #fff;
     margin: 0 16px;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
     height: 150px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.062);
-    
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.062);
   }
 
 .imgpop {
@@ -193,11 +191,8 @@ button {
     width: 40%;
     height: 140px;
     object-fit: cover;
-    position: absolute;
+    
   }
-.textpopular {
-    margin-left: 35%;
-}
 
 /*****Color Star********/  
 .star {
@@ -212,6 +207,7 @@ button {
     border-radius: 20px 20px 0 0;
     object-fit: cover;
     width: 100%;
+    height: 150px;
 
 }
 .title4{
@@ -223,43 +219,65 @@ button {
     display: flex;
     flex-direction: column;
     margin-bottom: 5%;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.062);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.062);
 } 
-
+.texteacco{
+    margin-left: 2%;
+    margin-top: -3%
+}
 
 /******* Activity ********/
+.activity {
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
 .caseactivity{
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
-    border: 5px solid #fff;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.062);
+    
+} 
 
-
-}
-
-/******* Footer *********/
-.imgact{
+.imgact {
     border-radius: 20px 20px 0 0 ;
-    object-fit: contain;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.062);
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
 }
+.texteacti {
+    margin-left: 2%
+}
+/******* Footer *********/
 
 .sectionfooter{
     margin-top: 10%;
-    margin: 0 16px
+    margin: 0 16px;
+    
     
 }
 .casefooter{
     background-color:#F2F2F2;
     overflow-x: visible;
     margin: 0 -16px;
-    
-
+    padding-top: 6%;
+    padding-bottom: 5%;
 }
-.imgact{
-    border-radius: 20px 20px 0 0;
-    object-fit: contain;
-    width: 100%;
-    height: 50%;
-    
+.footertext{
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+    line-height: 2em;
+    margin-bottom: 10%;
+    margin-left:-4%;
+}
+.titlefooter {
+    margin-left: 3%;
+}
+.title5 {
+    white-space: pre-line;
+    margin-bottom: -10%;
 }
 }
