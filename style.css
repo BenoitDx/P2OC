@@ -211,7 +211,7 @@ button {
 
 }
 .title4{
-    margin-top: 5%;
+    margin-top: 8%;
 }
 .caseaccomodationmarseille{
     border: 5px solid #fff;
@@ -228,8 +228,8 @@ button {
 
 /******* Activity ********/
 .activity {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 25%;
+    margin-bottom: 25%;
 
 }
 .caseactivity{
@@ -255,8 +255,6 @@ button {
 .sectionfooter{
     margin-top: 10%;
     margin: 0 16px;
-    
-    
 }
 .casefooter{
     background-color:#F2F2F2;
