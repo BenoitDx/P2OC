@@ -1,4 +1,4 @@
-@media (max-width: 748px) {
+@media (max-width: 767px) {
 *{
     box-sizing: border-box;
 }
@@ -184,6 +184,7 @@ button {
     margin-bottom: 3%;
     height: 150px;
     box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.062);
+    
   }
 
 .imgpop {
@@ -197,7 +198,7 @@ button {
 /*****Color Star********/  
 .star {
     color: #0065FC;
-    
+    letter-spacing: -2px;
 }
 .stargrey{
     color: 	#DCDCDC;
@@ -236,7 +237,7 @@ button {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.062);
     
 } 
@@ -276,6 +277,6 @@ button {
 }
 .title5 {
     white-space: pre-line;
-    margin-bottom: -10%;
+    margin-bottom: -25%;
 }
 }
