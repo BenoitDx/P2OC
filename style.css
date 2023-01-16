@@ -1,15 +1,13 @@
-@media (max-width: 767px) {
-*{
-    box-sizing: border-box;
-}
-
-
 body  {
     margin-left: auto;
     margin-right: auto;
     width: auto; 
     font-family: 'Raleway', sans-serif;
   }
+@media (max-width: 767px) {
+*{
+    box-sizing: border-box;
+}
 
 /************header logo ***********/
 header img{
@@ -40,6 +38,8 @@ header .border_accomodation{
     text-decoration: none;
     border-bottom: 3px solid #0065fc;
     padding: 12px;
+
+   
 }
 header .border_activity{
     text-decoration: none;
@@ -184,16 +184,23 @@ button {
     margin-bottom: 3%;
     height: 150px;
     box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.062);
-    
   }
 
 .imgpop {
     border-radius: 20px 0 0 20px;
-    width: 40%;
+    width: 35%;
     height: 140px;
     object-fit: cover;
+    position: absolute;
     
   }
+.starpop {
+    
+} 
+.apop {
+    width: 40%;
+    height: 140px;
+}
 
 /*****Color Star********/  
 .star {
@@ -282,4 +289,16 @@ button {
     white-space: pre-line;
     margin-bottom: -25%;
 }
+}
+
+
+/******** tablette ********/
+@media (min-width: 768px) and (max-width: 991px) {
+   
+    #layout {
+        padding: 0 70px;
+    }
+/******** header logo ********/
+
+
 }
