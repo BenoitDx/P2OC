@@ -208,7 +208,7 @@ button {
     border-radius: 20px 20px 0 0;
     object-fit: cover;
     width: 100%;
-    height: 150px;
+    height: 130px;
 
 }
 .title4{
@@ -221,10 +221,12 @@ button {
     flex-direction: column;
     margin-bottom: 5%;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.062);
+    
 } 
 .texteacco{
     margin-left: 2%;
-    margin-top: -3%
+    margin-top: -3%;
+    line-height: 0.6;
 }
 
 /******* Activity ********/
@@ -271,6 +273,7 @@ button {
     line-height: 2em;
     margin-bottom: 10%;
     margin-left:-4%;
+    font-weight: 500;
 }
 .titlefooter {
     margin-left: 3%;
