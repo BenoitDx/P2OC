@@ -299,6 +299,10 @@ button {
         padding: 0 70px;
     }
 /******** header logo ********/
-
+header img{
+    width: 61px;
+    height: 19px; 
+    margin-top: 5%;
+}
 
 }
