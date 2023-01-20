@@ -30,6 +30,7 @@ header ul{
     padding: 12px; 
     margin: 0 -16px;
 }
+
 header li{
     margin: auto;
     font-weight: 500;
@@ -203,9 +204,7 @@ button {
     width: 150px;
     height: 140px;
 }
-.textpopular {
-    
-}
+
 /*****Color Star********/  
 .star {
     color: #0065FC;
@@ -394,7 +393,7 @@ button {
     border-radius: 50px;
   }
 .primary-icon {
-    margin: 4%;
+    margin: 16px;
     color: #0065FC;
     margin-right: 5px;
 }   
@@ -402,8 +401,7 @@ button {
     width: 25%;
 }
 .d-flex{
-    display: flex;
-    
+    display: flex;  
 }
 .justify-content{
     justify-content: center;
@@ -413,13 +411,16 @@ button {
 }
 .filtered {
     display: flex;
-    margin-top: 5%;
+    margin-top: 24px;
     
 }
 .casefiltre {
     display: flex;
+    align-items: baseline;
+    
 
 }
+
 /******* info *******/
 .bulleinfo {
     display: inline-block;
@@ -428,7 +429,7 @@ button {
     width: 20px;
     height: 20px;
     text-align: center;
-    margin-right: 2%;
+    margin-right: 8px;
 }
 .bulleinfo .fa-info {
     color: #0065FC;
@@ -436,8 +437,40 @@ button {
 .info {
     display: flex;
     align-items: baseline;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 24px;
+    
 }
-}
+/******* populaires *******/
 
+.popular {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    display: flex;
+    height: 280px;
+}
+.casepopular {
+    display: flex;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    background-color: #fff;
+    height: 140px;
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.062);
+  }
+
+.imgpop {
+    border-radius: 20px 0 0 20px;
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    
+  }
+
+.apop {
+    overflow: hidden;
+    display: block;
+    width: 150px;
+    height: 140px;
+}
+/****** hebergement *****/ 
+
+}
