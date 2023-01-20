@@ -248,7 +248,7 @@ button {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 8%;
+    margin-bottom: 24px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.062);
     
 } 
@@ -265,7 +265,7 @@ button {
 .title5 {
     white-space: pre-line;
 }
-/**** spacing ****** convention +8 pixel **/
+/**** spacing ****** convention +8*n pixel **/
 .mb-10 {
     margin-bottom: 80px;
 }
@@ -273,7 +273,6 @@ button {
 /******* Footer *********/
 
 .sectionfooter{
-    margin-top: 10%;
     margin: 0 16px;
 }
 .casefooter{
