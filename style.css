@@ -220,6 +220,9 @@ button {
     margin-top: -3%;
     line-height: 0.6;
 }
+.setplus {
+    display: none;
+}
 /******* Activity ********/
 .caseactivity{
     border-radius: 20px;
@@ -438,8 +441,9 @@ button {
 .popular {
     background-color: #F2F2F2;
     border-radius: 20px;
-    height: 280px;
+    height: 272px;
     margin-bottom: 64px;
+    padding-top: 16px;
     }
 
 .casepopular {
@@ -447,15 +451,15 @@ button {
     border: 5px solid #fff;
     border-radius: 20px;
     background-color: #fff;
-    height: 144px;
-    width: 240px;
+    height: 136px;
+    width: 28%;
     box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.062);
     font-size: 14px;
   }
 .imgpop {
     border-radius: 20px 0 0 20px;
-    width: 106px;
-    height: 144px;
+    width: 100%;
+    height: 136px;
     object-fit: cover;
   }
 .casepopulardir {
@@ -481,9 +485,7 @@ button {
     font-size: 12px;
 }
 .starpop {
-   display: flex;
-   
-   
+   display: flex;   
 }
 /****** hebergement *****/ 
 .accomodationMarseille {
@@ -494,44 +496,63 @@ button {
     display: flex;
     flex-direction: column;
 }
-
 .caseaccomodationmarseille {
     background-color: #fff;
     border: 5px solid #fff;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.062);
-    height: 199px;
-    width: 30%;
+    height: 200px;
+    width: 28%;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
+.title4{
+    padding-left: 32px;
+    padding-top: 16px;
+}
+.setplus{
+    padding-left: 32px;
+    padding-top: 32px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.texteacco{
+    overflow: hidden;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 0.4;
+    margin-left: 8px;
+}
+
 .imgacco{
     border-radius: 20px 20px 0 0;
     object-fit: cover;
     width: 100%;
     height: 120px;
-
 }
 .dir1 {
     display:flex;
     justify-content: space-around;
+    margin-top: 16px;
     margin-bottom: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 .dir2 {
     display: flex;
     justify-content: space-around;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 /****** activités *****/ 
 .caseactivity{
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 20%;
     margin-bottom: 64px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.062);
     height: 264px;
-    margin-right: 32px;
 } 
 .imgact {
     border-radius: 20px 20px 0 0 ;
