@@ -387,7 +387,7 @@ button {
     margin-bottom: 16px;
 }
 .casefiltre {
-    display: flex;  
+    display: flex; 
 }
 .title2 {
     font-size: 18px;
@@ -421,7 +421,7 @@ button {
 .stargrey{
     color: 	#DCDCDC;
 }
-/***** inversement pop acco ******/
+/***** reverse pop acco ******/
 .dirpopaco {
     display: flex;
     flex-direction: column-reverse;
@@ -533,7 +533,7 @@ button {
 .dir1 {
     display:flex;
     justify-content: space-around;
-    margin-top: 16px;
+    margin-top: 8px;
     margin-bottom: 32px;
     margin-left: 16px;
     margin-right: 16px;
@@ -594,3 +594,43 @@ button {
 }
 
 }
+/******** desktop *******/
+@media (min-width: 992px) {
+    body  {
+        max-width: 1400px;
+      }
+   
+    #layout {
+        padding: 0 70px;
+        
+    }
+/******** header logo ********/
+header img{
+    width: 61px;
+    height: 19px; 
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.menu-items{
+    display: flex;
+    list-style-type: none;
+}
+header .border_accomodation{
+    border-top: solid 3px #0065fc;
+    color: #0065fc;
+    padding: 36px;
+    text-decoration: none;
+    margin-right: 36px;
+  }
+
+header .border_activity{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+}    
