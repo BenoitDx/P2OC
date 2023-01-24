@@ -23,7 +23,6 @@ header nav{
 header ul{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;    
     list-style: none;
     border-bottom: solid; color: #d9d9d9;
     padding: 12px; 
@@ -37,6 +36,7 @@ header .border_accomodation{
     text-decoration: none;
     border-bottom: 3px solid #0065fc;
     padding: 12px;  
+    
 }
 header .border_activity{
     text-decoration: none;
@@ -373,7 +373,7 @@ button {
     color: #0065FC;
 }   
 .d-flex {
-    display: flex;  
+    display: flex; 
 }
 .mb-1 {
     margin: 8px;
@@ -620,17 +620,26 @@ header {
     list-style-type: none;
 }
 header .border_accomodation{
-    border-top: solid 3px #0065fc;
-    color: #0065fc;
+    color: #000000;
     padding: 36px;
     text-decoration: none;
-    margin-right: 36px;
+    font-weight: 500;
   }
-
+header .border_accomodation:hover{
+    border-top: solid 3px #0065fc;
+    color: #0065FC;
+   
+}
+header .border_activity:hover{
+    border-top: solid 3px #0065fc;
+    color: #0065FC;
+}
 header .border_activity{
     text-decoration: none;
     color: #000;
     font-weight: 500;
+    padding: 36px;
+    
 }
 /************Recherche***********/
 .search h1{
