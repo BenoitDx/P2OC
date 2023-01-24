@@ -693,6 +693,9 @@ button {
     white-space: nowrap;
     padding-right: 16px;
   }
+.bordered:hover{
+background-color:#DEEBFF
+}  
 .primary-icon {
     margin: 16px;
     color: #0065FC;
