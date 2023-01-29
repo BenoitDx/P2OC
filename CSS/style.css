@@ -209,6 +209,7 @@ button {
     margin-bottom: 3%;
     height: 150px;
     box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.062);
+    cursor: pointer;
   }
 
 .imgpop {
@@ -276,7 +277,8 @@ button {
     display: flex;
     flex-direction: column;
     margin-bottom: 5%;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.062);    
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.062);  
+    cursor: pointer;  
 } 
 
 .texteacco {
@@ -296,6 +298,7 @@ button {
     flex-direction: column;
     margin-bottom: 24px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.062);
+    cursor: pointer;
     
 } 
 
@@ -487,8 +490,8 @@ button {
     align-items: center;
     margin-bottom: 16px;
     
+    
 }
-
 .casefiltre {
     display: flex;
 }
@@ -574,6 +577,7 @@ button {
     width: 28%;
     box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.062);
     font-size: 14px;
+    cursor: pointer;
   }
 
 .imgpop {
@@ -633,6 +637,7 @@ button {
     width: 28%;
     display: flex;
     flex-direction: column; 
+    cursor: pointer;
 }
 
 .title4 {
@@ -653,7 +658,9 @@ button {
     line-height: 0.4;
     margin-left: 8px;
 }
-
+.textephoto{
+    
+}
 .imgacco {
     border-radius: 15px 15px 0 0;
     object-fit: cover;
@@ -687,6 +694,7 @@ button {
     margin-bottom: 64px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.062);
     height: 264px;
+    cursor: pointer;
 } 
 
 .imgact {
@@ -976,6 +984,7 @@ background-color:#DEEBFF
     box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.062);
     font-size: 14px;
     margin-bottom: 32px;
+    cursor: pointer;
   }
 
 
@@ -1039,6 +1048,7 @@ background-color:#DEEBFF
     width: 28%;
     display: flex;
     flex-direction: column; 
+    cursor: pointer;
 }
 
 .title4 {
@@ -1095,6 +1105,7 @@ background-color:#DEEBFF
     margin-bottom: 64px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.062);
     height: 360px;
+    cursor: pointer;
 } 
 
 .imgact {
@@ -1108,6 +1119,7 @@ background-color:#DEEBFF
     margin-left: 8px;
     margin-top: 2px;
     font-size: 16px;
+    
 
 }
 
