@@ -582,7 +582,7 @@ button {
 
 .imgpop {
     border-radius: 15px 0 0 15px;
-    width: 100px;
+    width: 80px;
     height: 136px;
     object-fit: cover;
   }
@@ -717,7 +717,7 @@ button {
 
 .dir3 {
     display:flex;
-    justify-content: space-around ;
+    justify-content: space-between ;
 
 }
 
@@ -1024,7 +1024,7 @@ background-color:#DEEBFF
 }
 
 .starpop {
-   display: flex;   
+   display: flex;
 }
 
 /****** hebergement *****/ 
@@ -1101,10 +1101,10 @@ background-color:#DEEBFF
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    width: 23%;
+    width: 22%;
     margin-bottom: 64px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.062);
-    height: 360px;
+    height: 440px;
     cursor: pointer;
 } 
 
@@ -1112,14 +1112,13 @@ background-color:#DEEBFF
     border-radius: 20px 20px 0 0 ;
     object-fit: cover;
     width: 100%;
-    height: 310px;
+    height: 390px;
 }
 
 .texteacti {
     margin-left: 8px;
-    margin-top: 2px;
+    margin-top: 4px;
     font-size: 16px;
-    
 
 }
 
