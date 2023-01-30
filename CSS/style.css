@@ -230,10 +230,11 @@ button {
     flex-direction: column;
     justify-content: center;
     padding-left: 16px;
+    font-size: 14px;
 
 }
 .textephotopop {
-    width: 199px;
+    width: 150px;
     height: 50px;
     margin-bottom: 0;
     margin-top: 0;
@@ -465,11 +466,12 @@ button {
     border-radius: 50px;
     height: 45px;
     white-space: nowrap;
-    padding-right: 16px;
+    padding-right: 12px;
+    font-size: 14px;
   }
 
 .primary-icon {
-    margin: 16px;
+    margin: 12px;
     color: #0065FC;
 }   
 
@@ -478,7 +480,7 @@ button {
 }
 
 .mb-1 {
-    margin: 8px;
+    margin: 1%;
 }
 
 .align-item {
@@ -490,14 +492,15 @@ button {
     align-items: center;
     margin-bottom: 16px;
     
-    
 }
 .casefiltre {
     display: flex;
+    justify-content: space-between;
+
 }
 
 .title2 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /******* info *******/
@@ -574,7 +577,7 @@ button {
     border-radius: 20px;
     background-color: #fff;
     height: 136px;
-    width: 28%;
+    width: 30%;
     box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.062);
     font-size: 14px;
     cursor: pointer;
@@ -595,26 +598,30 @@ button {
 }
 
 .textepopular {
-    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 8px;
     white-space: pre-line;
-    line-height: 1;
-    overflow: hidden;
-    box-sizing: border-box;
+    font-size: 12px;
 }
 
 .textephotopop {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 2px;
+    
 }
 
 .textephotopop1 {
     margin-top: 0;
-    margin-bottom: 0;
     font-size: 12px;
+    
 }
 
 .starpop {
-   display: flex;   
+    display: flex;  
+    font-size: 12px;
+    margin-top: auto;
+    margin-bottom: 2px;
 }
 
 /****** hebergement *****/ 
@@ -652,13 +659,14 @@ button {
 }
 
 .texteacco {
-    overflow: hidden;
-    box-sizing: border-box;
+   
     font-size: 14px;
     line-height: 0.4;
     margin-left: 8px;
+    
 }
 .textephoto{
+    font-size: 14px;
     
 }
 .imgacco {
@@ -690,10 +698,10 @@ button {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 21%;
     margin-bottom: 64px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.062);
-    height: 264px;
+    height: 210px;
     cursor: pointer;
 } 
 
@@ -701,13 +709,13 @@ button {
     border-radius: 20px 20px 0 0 ;
     object-fit: cover;
     width: 100%;
-    height: 200px;
+    height: 160px;
 }
 
 .texteacti {
     margin-left: 8px;
-    margin-top: 2px;
-    font-size: 16px;
+    margin-top: 4px;
+    font-size: 14px;
 
 }
 
@@ -724,20 +732,21 @@ button {
 /******* Footer *********/
 
 .casefooter {
-    padding-top: 32px;
-    padding-left: 64px;
-    padding-right: 64px;
-    padding-bottom: 32px;
+    padding: 32px 64px 64px 32px;
     background-color:#F2F2F2;
     display: flex;
+    justify-content: space-around;
+}
+.sectionfooter {
     justify-content: space-around;
 }
 
 .footertext {
     list-style-type: none;
     line-height: 2em;
+    font-size: 14px;
     font-weight: 500;
-    
+    margin-left: -20px;
 }
 }
 
@@ -767,6 +776,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 .menu-items {
@@ -808,7 +818,7 @@ header .border_activity {
 }
 
 .search p {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     font-size: 16px;
 }
 
@@ -922,10 +932,10 @@ background-color:#DEEBFF
     color: #0065FC;
   }
 
-  .info {
+.info {
     display: flex;
     align-items: baseline;
-    margin-bottom: 16px; 
+    margin-bottom: 24px; 
 }
 
 .subtitle2 {
@@ -937,6 +947,7 @@ background-color:#DEEBFF
 .star {
     color: #0065FC;
     letter-spacing: -2px;
+    font-size: 12px
 }
 
 .stargrey {
@@ -1005,26 +1016,28 @@ background-color:#DEEBFF
 }
 
 .textepopular {
+    display: flex;
+    flex-direction: column;
     margin-left: 12px;
     white-space: pre-line;
-    line-height: 1;
-    overflow: hidden;
-    box-sizing: border-box;
 }
 
 .textephotopop {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 8px;
+
 }
 
 .textephotopop1 {
     margin-top: 0;
-    margin-bottom: 0;
     font-size: 12px;
 }
 
 .starpop {
    display: flex;
+   margin-bottom: 4px;
+   margin-top: auto;
+   font-size: 12px;
+   
 }
 
 /****** hebergement *****/ 
@@ -1032,7 +1045,7 @@ background-color:#DEEBFF
 .accomodationMarseille {
     background-color: #F2F2F2;
     border-radius: 20px;
-    height: 648px;
+    height: 655px;
     width: 65%;
     margin-bottom: 64px;
     display: flex;
@@ -1058,19 +1071,36 @@ background-color:#DEEBFF
 
 .setplus {
     padding-left: 32px;
-    padding-top: 32px;
-
+    padding-top: 40px;
     font-weight: bold;
+    font-size: 16px;
 }
 
 .texteacco {
-    overflow: hidden;
-    box-sizing: border-box;
-    font-size: 14px;
-    line-height: 0.4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     margin-left: 8px;
+    font-size: 14px;
 }
+.textephoto{
+    margin-top: 4px;
+    
+}
+.textephoto1{
+    margin-top: auto;
+    font-size: 12px
+    
+}
+.staracco{
+    display: flex;
+    font-size: 12px;
+    margin-top: auto;
+    margin-bottom: 2px;
 
+    
+    
+}
 
 .imgacco {
     border-radius: 20px 20px 0 0;
