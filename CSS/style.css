@@ -31,19 +31,28 @@ header img {
 
 /********** Menu navigation *********/
 
-
-
+header {
+    margin-bottom: 32px;
+}
 header ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    border-bottom: solid; color: #d9d9d9;
-    padding: 12px; 
-    margin: 0 -16px;
+    padding: 0
 }
 
 header li {
+    display: flex;
+    justify-content: center;
     font-weight: 500;
+    width: 100%;
+    padding: 12px; 
+    border-bottom: solid 3px #d9d9d9;
+}
+
+header li:hover{
+    border-bottom:solid 3px #0065fc;
+   
 }
 
 #layout {
@@ -490,6 +499,8 @@ button {
     display: flex;
     align-items: center;
     margin-bottom: 16px;
+    flex-wrap: wrap;
+    max-width: 96%;
     
 }
 .casefiltre {
@@ -533,6 +544,7 @@ button {
 .star {
     color: #0065FC;
     letter-spacing: -2px;
+    font-size: 12px;
 }
 
 .stargrey {
@@ -618,7 +630,7 @@ button {
 
 .starpop {
     display: flex;  
-    font-size: 14px;
+    font-size: 12px;
     margin-top: auto;
     margin-bottom: 2px;
 }
@@ -641,9 +653,6 @@ button {
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.062);
     height: 200px;
     width: 28%;
-    display: flex;
-    flex-direction: column; 
-    cursor: pointer;
 }
 
 .title4 {
@@ -658,16 +667,24 @@ button {
 }
 
 .texteacco {
-   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     font-size: 14px;
     line-height: 0.4;
     margin-left: 8px;
     
 }
+.staracco {
+    margin-top: 10px;
+}
 .textephoto{
     font-size: 14px;
-    
+    margin-top: 12px;
+    margin-bottom: 0;
 }
+
+
 .imgacco {
     border-radius: 15px 15px 0 0;
     object-fit: cover;
@@ -982,7 +999,7 @@ background-color:#DEEBFF
 .popular {
     background-color: #F2F2F2;
     border-radius: 20px;
-    height: 648px;
+    height: 630px;
     width: 30%;
 }
 
@@ -1049,7 +1066,7 @@ background-color:#DEEBFF
 .accomodationMarseille {
     background-color: #F2F2F2;
     border-radius: 20px;
-    height: 655px;
+    height: 630px;
     width: 65%;
     margin-bottom: 64px;
     display: flex;
@@ -1062,7 +1079,7 @@ background-color:#DEEBFF
     border-radius: 20px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.062);
     height: 190px;
-    width: 28%;
+    width: 30%;
     display: flex;
     flex-direction: column; 
     cursor: pointer;
@@ -1083,27 +1100,21 @@ background-color:#DEEBFF
 .texteacco {
     display: flex;
     flex-direction: column;
-    padding-left: 8px;
+    align-items: flex-start;
     font-size: 14px;
-    position: relative;
+    margin-left: 8px;
     
 }
+
 .textephoto{
-    margin: 0;
-    
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .textephoto1{
-    margin: 0;
-    font-size: 12px;
-    
-    
+    margin-top: 0;
 }
-.staracco{
-    font-size: 12px;
-    position: absolute;
-    top:120%
 
-}
 
 .imgacco {
     border-radius: 15px 15px 0 0;
