@@ -35,18 +35,22 @@ header {
     margin: 16px -16px 32px
 
 }
+
 header ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
     padding: 0
 }
+
 .border_accomodation{
     margin-left: 16px
 }
+
 .border_activity{
     margin-right: 16px;
 }
+
 header li {
     display: flex;
     justify-content: center;
