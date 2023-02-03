@@ -73,7 +73,9 @@ header li:hover{
 .search p {
     margin-bottom: 32px;
 }
-
+.search h1 {
+    font-size: 21px
+}
 .searchbar {
     display: flex;
     justify-content: center;
@@ -414,7 +416,7 @@ header .border_activity {
 
 .search h1 {
     width: 70%;
-    font-size: 18px
+    font-size: 20px
 }
 
 .search {
@@ -838,7 +840,7 @@ header .border_activity {
 
 .search h1 {
     width: 50%;
-    font-size: 18px
+    font-size: 22px
 }
 
 .search {
