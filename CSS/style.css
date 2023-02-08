@@ -58,7 +58,7 @@ header li {
     border-bottom: solid 3px #d9d9d9;
 }
 
-header li:hover{
+header li:hover {
     border-bottom:solid 3px #0065fc;
 
    
@@ -189,7 +189,7 @@ button {
 .info {
     display: flex;
     align-items: baseline;
-    margin-top: 5%;
+    margin-top: 5%; 
     margin-bottom: 5%;
 }
 
