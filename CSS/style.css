@@ -397,9 +397,11 @@ header {
     justify-content: space-between;
     margin-bottom: 40px;
 }
+
 .bluebouton{
     display: none;
 }
+
 .menu-items {
     display: flex;
     list-style-type: none;
